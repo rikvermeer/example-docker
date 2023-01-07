@@ -10,13 +10,4 @@ echo $GUSERNAME:docker | chpasswd
 #su -p -l $GUSERNAME
 cd $GPWD
 su -w GDISPLAY,GUSERNAME,GUID,GGROUP,GGID,GHOME,GSHELL,GRUNXTERM,GPWD $GUSERNAME
-#/bin/bash
-
-#cd $GPWD
-#usermod -u `id -u ${USER}` micropython
-#groupmod -g `id -g ${USER}` micropython
-
-#. $IDF_PATH/export.sh
-
-#exec "$@"
 
